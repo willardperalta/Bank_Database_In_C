@@ -1,0 +1,178 @@
+Script started on Sun 11 Mar 2018 09:41:39 PM HST
+]0;willardp@uhx02:~[?1034huhx02:/home/w/willardp% ./pj1
+
+***File successfully read from pj1.txt***
+
+****Bank Database Application****
+1. Add a new record
+2. Print a single record
+3. Print all records
+4. Delete a record
+5. Exit
+Please enter a number between 1 and 5: 3
+
+There are no records to print.
+
+****Bank Database Application****
+1. Add a new record
+2. Print a single record
+3. Print all records
+4. Delete a record
+5. Exit
+Please enter a number between 1 and 5: a
+
+Invalid Input. Please enter a number between 1 and 5
+
+****Bank Database Application****
+1. Add a new record
+2. Print a single record
+3. Print all records
+4. Delete a record
+5. Exit
+Please enter a number between 1 and 5: 1
+
+Enter account number: 44
+
+Enter Name: James Bond
+
+Enter Address: 
+Enter the address no bigger than 80 chars then press semicolon when done: 323
+Min Street
+honolulu HI;
+
+The record was added.
+
+****Bank Database Application****
+1. Add a new record
+2. Print a single record
+3. Print all records
+4. Delete a record
+5. Exit
+Please enter a number between 1 and 5: 1
+
+Enter account number: 2
+
+Enter Name: Will Smith
+
+Enter Address: 
+Enter the address no bigger than 80 chars then press semicolon when done: Second Street
+Honolulu HI;
+
+The record was added.
+
+****Bank Database Application****
+1. Add a new record
+2. Print a single record
+3. Print all records
+4. Delete a record
+5. Exit
+Please enter a number between 1 and 5: 1
+
+Enter account number: 99
+
+Enter Name: Bob Smith
+
+Enter Address: 
+Enter the address no bigger than 80 chars then press semicolon when done: 555
+third Street
+Honolulu HI;
+
+The record was added.
+
+****Bank Database Application****
+1. Add a new record
+2. Print a single record
+3. Print all records
+4. Delete a record
+5. Exit
+Please enter a number between 1 and 5: 3
+
+Here are all of the records:
+
+Accountno: 2
+Name: Will Smith
+Address: Second Street
+Honolulu HI
+
+
+Accountno: 44
+Name: James Bond
+Address: 323
+Min Street
+honolulu HI
+
+
+Accountno: 99
+Name: Bob Smith
+Address: 555
+third Street
+Honolulu HI
+
+
+****Bank Database Application****
+1. Add a new record
+2. Print a single record
+3. Print all records
+4. Delete a record
+5. Exit
+Please enter a number between 1 and 5: 4
+
+Enter account number: 44
+
+Record deleted.
+
+****Bank Database Application****
+1. Add a new record
+2. Print a single record
+3. Print all records
+4. Delete a record
+5. Exit
+Please enter a number between 1 and 5: 3
+
+Here are all of the records:
+
+Accountno: 2
+Name: Will Smith
+Address: Second Street
+Honolulu HI
+
+
+Accountno: 99
+Name: Bob Smith
+Address: 555
+third Street
+Honolulu HI
+
+
+****Bank Database Application****
+1. Add a new record
+2. Print a single record
+3. Print all records
+4. Delete a record
+5. Exit
+Please enter a number between 1 and 5: 2
+
+Enter account number: 2
+
+Record found: 
+Accountno: 2
+Name: Will Smith
+Address: Second Street
+Honolulu HI
+
+
+****Bank Database Application****
+1. Add a new record
+2. Print a single record
+3. Print all records
+4. Delete a record
+5. Exit
+Please enter a number between 1 and 5: 5
+
+Exited program.
+
+***Data saved to pj1.txt***
+]0;willardp@uhx02:~uhx02:/home/w/willardp% exit
+exit
+
+Script done on Sun 11 Mar 2018 09:44:09 PM HST

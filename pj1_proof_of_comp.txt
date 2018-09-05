@@ -1,0 +1,9 @@
+Script started on Sun 11 Mar 2018 09:41:02 PM HST
+]0;willardp@uhx02:~[?1034huhx02:/home/w/willardp% make -f pj1.mk
+gcc -ansi -pedantic-errors -Wall -c pj1.c
+gcc -ansi -pedantic-errors -Wall -c db.c
+gcc pj1.o db.o -o pj1
+]0;willardp@uhx02:~uhx02:/home/w/willardp% exit
+exit
+
+Script done on Sun 11 Mar 2018 09:41:24 PM HST

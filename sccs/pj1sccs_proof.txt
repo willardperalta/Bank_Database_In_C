@@ -1,0 +1,48 @@
+Script started on Thu 15 Mar 2018 04:14:00 PM HST
+]0;willardp@uhx02:~[?1034huhx02:/home/w/willardp% cd pj1sccs
+]0;willardp@uhx02:~/pj1sccsuhx02:/home/w/willardp/pj1sccs% ls
+[0m[38;5;27mSCCS[0m
+]0;willardp@uhx02:~/pj1sccsuhx02:/home/w/willardp/pj1sccs% sccs get getrelease.sh
+get: warning: SCCS/s.getrelease.sh: No id keywords.
+1.1
+6 lines
+]0;willardp@uhx02:~/pj1sccsuhx02:/home/w/willardp/pj1sccs% bash getrelease.sh
+get: warning: SCCS/s.record.h: No id keywords.
+1.1
+9 lines
+get: warning: SCCS/s.db.h: No id keywords.
+1.1
+7 lines
+get: warning: SCCS/s.db.c: No id keywords.
+1.1
+384 lines
+get: warning: SCCS/s.pj1.c: No id keywords.
+1.1
+266 lines
+get: warning: SCCS/s.pj1.mk: No id keywords.
+1.1
+11 lines
+get: warning: SCCS/s.pj1.txt: No id keywords.
+1.1
+0 lines
+]0;willardp@uhx02:~/pj1sccsuhx02:/home/w/willardp/pj1sccs% ls
+db.c  db.h  getrelease.sh  pj1.c  pj1.mk  pj1.txt  record.h  [0m[38;5;27mSCCS[0m
+]0;willardp@uhx02:~/pj1sccsuhx02:/home/w/willardp/pj1sccs% make -f pj1.mk
+gcc -ansi -pedantic-errors -Wall -c pj1.c
+gcc -ansi -pedantic-errors -Wall -c db.c
+gcc pj1.o db.o -o pj1
+]0;willardp@uhx02:~/pj1sccsuhx02:/home/w/willardp/pj1sccs% ./pj1
+
+***File successfully read from pj1.txt***
+
+****Bank Database Application****
+1. Add a new record
+2. Print a single record
+3. Print all records
+4. Delete a record
+5. Exit
+Please enter a number between 1 and 5: ^C
+]0;willardp@uhx02:~/pj1sccsuhx02:/home/w/willardp/pj1sccs% exit
+exit
+
+Script done on Thu 15 Mar 2018 04:14:52 PM HST
